@@ -1,0 +1,146 @@
+/* Global styles */
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif
+}
+
+body{
+    background: #f4f4f4;
+}
+
+/* Hero Sector */
+.hero{
+    position: relative;
+    height: 100vh;
+    background:url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-model-Y-Desktop-NA-v3.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space between;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+/* Nav bar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links li a{
+   text-decoration: none;
+   color: white;
+   font-size: 16px;
+   transition: 0.3s ease-in-out;
+}
+
+.nav-links li a:hover{
+    color: #d0d0d0;
+}
+
+/*Navbar Icon */
+
+.nav-icons i{
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.nav-icons i:hover{
+    transform: scale(1.2);
+}
+
+/* content */
+
+.content{
+    margin-top: 140px;
+}
+
+.content h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.price{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.small-text{
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    display: inline-black;
+    padding: 12px 24px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.primary{
+    background: #007bff;
+    color: white;
+}
+
+.primary:hover{
+    background: #0056b3;
+}
+
+.secondary{
+     background: white;
+    color: black;
+    border: 2px solid black;
+}
+
+/* footer section */
+
+.footer{
+    margin-bottom: 20px;
+}
+
+.drive-btn{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    transition: color 0.3s ease-in-out;
+}
+
+.drive-btn i{
+    margin-right: 5px;
+}
+
+.drive-btn:hover{
+    color: #d0d0d0;
+}
